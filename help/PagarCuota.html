@@ -1,0 +1,96 @@
+﻿<html>
+	
+<head>
+	<title>Pagar Cuota</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Personal Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "Gestor Académico.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("PagarCuota");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_header">
+			<div id="topic_header_content">
+				<h1 id="topic_header_text">Pagar Cuota</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="Funcionalidades.html">Funcionalidades</a> &rsaquo;&rsaquo; <a href="Estudiante.html">Estudiante</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="Estudiante.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="EvaluarEstudiante.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Listar.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps4"><span class="rvts14"> Pagar Cuota</span></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps4"><img alt="" style="padding : 1px;" src="lib/NewItem5.png"></p>
+<p class="rvps4"><span class="rvts14"><br/></span></p>
+<p class="rvps3"><span class="rvts15">BOTÓN BUSCAR:</span><span class="rvts16"> </span></p>
+<p class="rvps3"><span class="rvts16">Este botón comprueba si la cedula introcida es numérica y devuelve si el estudiante está registrado en la base de datos o no. Si está registrado, se mostrará en pantalla su nombre completo y el curso al cual está matriculado, además de un formulario con sus cuotas sin pagar. </span></p>
+<p class="rvps3"><span class="rvts16"><br/></span></p>
+<p class="rvps3"><span class="rvts16"><br/></span></p>
+<p class="rvps3"><span class="rvts15">BOTÓN COBRAR:</span><span class="rvts16"> </span></p>
+<p class="rvps3"><span class="rvts16">Una vez seleccionado un registro de las cuotas del estudiante, se puede proceder a cobrar el mismo. Sin embargo, no se permite la seleccion trivial de cualquier registro. Este siempre debe ser el último, de lo contrario el cobro no se efectuará. </span></p>
+<p class="rvps3"><span class="rvts16"><br/></span></p>
+<p class="rvps3"><span class="rvts16"><br/></span></p>
+<p class="rvps3"><span class="rvts16"><br/></span></p>
+<p></p>
+<p class="rvps2"><span class="rvts6">Created with the Personal Edition of HelpNDoc: </span><a class="rvts7" href="http://www.helpndoc.com/help-authoring-tool">Single source CHM, PDF, DOC and HTML Help creation</a></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div>
+		</div>
+	</body>
+	
+</html>
+

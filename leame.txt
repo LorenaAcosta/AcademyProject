@@ -1,0 +1,8 @@
+
+
+
+PASOS PARA EJECUTAR LA APLICACION:
+
+PASO 1:  para ejecutar el GUI de la aplicacion en PYTHON ...
+          ejecutar en python el archivo que esta en la direccion ->>>  Proyecto1/Vistas/menuTk.py
+          o desde la terminal python menuTk.py
